@@ -1,58 +1,106 @@
 ---
 title: "SkyTrack"
 author: "Kiya Kesheh"
-description: "100 mph FPV drone!
-created_at: "2025-05-21"
+description: "100 mph RC car!"
+created_at: "2025-07-01"
 ---
 
-## **Day 1** (05/21/2025)
+## **Day 1** (07/01/2025)
 
-* Did research on what components are best  
-  * Compared thrust, KV, and RMP curves for multiple 5-inch prop motors   
-  * Selected the:  
-    *  Axisflying Bando 2207.5 1960 KV motors based on their torque and top-end RPM on 6 S  
-  * Also chose a 65A 4 in 1 ESC for the motors  
-    * 3065 AM32 65 A 4-in-1 ESC  
-  * Compared flight controllers to see what is best and whether I should use F7 flight computers, but instead opted to use the F4 flight computer  
-    * Matek F405-HDTE  
-      * Has an STM32F405  
-      * MPU6000  
-      * Onboard OSD  
-      * And built a current sensor   
-  * Also did research on what propeller size I should be using and decided a 5-inch is best for a high-speed drone, so I chose:  
-    * HQProp Ethix S4 5×4.5×3 tri-blades  
-  * Also decided to use a 6S battery as the motors would run at max speed with it  
-    * 2pcs CNHL Lipo Battery 6S 22.2V 1100mAh 1500mah 100C With XT60 For RC FPV Quadcopter Airplane Helicopter Hobby  
-    *   
-* Lastly made a BOM of all parts to see how much it would cost, and the exact price with tax and shipping is **$304.20**
+* Did a ton of research on how RC cars are built  
+  * Compared 3650 vs. 3665 vs. 4268 motors  
+  * Found out 3650 3900KV motors are good for short bursts and good midrange RPM  
+  * Decided on the Surpass Rocket 3650 3900KV motor with a 60A waterproof ESC  
+* Picked an AXSPEED metal chassis because it has a solid build, and comes with 4 wheels, dampers, servo mount, and all that already  
+  * Less I have to design, the faster I get to the fun part (breaking stuff and rebuilding lol)  
+* For the receiver, went with the Flysky FS-iA6B since I already have a compatible transmitter  
+* Battery-wise, I decided on a dual 5200mAh 4S HOOVO pack to give me the juice I need  
+  * This thing will be a beast—should hit 100mph with gear tuning  
+* Finalized BOM and added everything to my cart to get an idea of the real-world cost  
+  * Total cost with shipping and taxes: **$327.77** 😮‍💨
 
-## **Day 2** (05/22/2025)
+---
 
-* Made a sketch of a frame to work with the 5-inch props and made sure the center of gravity would not be messed up   
-* Drew the sketch in Fusion 360 and made a 240mm diameter motor-to-motor spacing  
-* Modeled the body with channels to route wires going from the ESC to the motors   
-* Added other channels to hide wires   
-* Added a low-profile canopy   
-* Did not add mounting holes, as I will be using a soldering iron with brass inserts   
-* Beefed up sections under high loads
+## **Day 2** (07/02/2025)
 
-## **Day 3** (05/23/2025)
+* Modeled the full drivetrain in Fusion 360 based on wheel size and chassis layout  
+  * Front and rear differential spacing adjusted to the AXSPEED chassis dimensions  
+* Drew out servo and ESC placement with wire routing under the top plate  
+* Designed a modular battery tray that can slide to adjust CG front-to-back  
+* Looked up gearing ratios and experimented with some hypothetical values in a calculator  
+  * Maxed out theoretical speed = 112mph at 85% throttle on 4S 👀  
+* Still figuring out how to keep the motor cool without air ducts
 
-* Fixed some geometry of the drone and reduced weight  
-* Added more channels for battery wires  
-* Started to make the GitHub repository (This was done a little later the day after (I might or might not have feel asleep))
-* Added all parts to an Excel sheet and saw how much tax and shipping fees were on Aliexpress  
-* Added everything to the BOM and finalized last-minute changes  
-* 3D printed the frame with carbon reinforced filament (Nozzle is cooked)   
-* The frame was printed at:  
-  * Nozzle: 230 °C  
-  * Bed: 100 °C  
-  * Infill: Gyroid at 50% infill   
-  * 0.2mm layers   
-  * Speed: 75%   
-  * Slicer: Cura
+---
 
- ## **My Story** 
+## **Day 3** (07/03/2025)
 
-* Ever since I started my sophomore year of high school, I have wanted to take on a project that was ambitious. After months of brainstorming, I came up with a couple of ideas, such as building a rover, a high-speed drone, or rockets. After debating and consulting my sibling, I decided to watch videos on drone builds, and I was amazed! All of the parts available and the electronics just shocked me. How did they think of this? How was this made? After countless videos, I came up with a rough list of requirements: carbon frame, high-kv motors, all-in-one ESC, 4s lipo, lightweight, and cool paint job. After adding up the costs of all parts, I found it to be very expensive, as all parts totaled $500. This was way too much and still is way too much for my family (low income), so I decided to put the entire project to the side and build rockets instead (Way cheaper). But after getting bored of rockets, I came back to the drone project due to "highway" and decided to update the parts and reduce costs as I could reuse what I had. For example, I have a 6s lipo, so I adapted the ESC to that and got rid of the battery (4s one). The total cost for the new BOM proved to be way less, and has got me excited, as I have a plan for this drone that I will hopefully build.
+* Refined the Fusion 360 model  
+  * Added cutouts for ESC cooling and slots to run 12AWG wires  
+  * Designed custom 3D-printable motor mount plate to adjust pinion angle  
+* Measured actual dimensions of motor + ESC from datasheet and scaled everything in CAD  
+* Created mounting holes for RX and tiedown slots for zip-ties  
+* Experimented with TPU bumper design to absorb front-end crashes  
+* Started slicing components to 3D print the ones I can (battery tray, bumper, wire clamps)
 
+---
+
+## **Day 4** (07/04/2025)
+
+* 3D printed the first version of the front bumper and wire clamps  
+  * Print settings:  
+    * Nozzle: 215 °C (TPU)  
+    * Bed: 60 °C  
+    * Infill: 40%, pattern: cubic  
+    * Speed: 30 mm/s  
+* Noticed a warp in the tray—need to reprint with a raft  
+* Ordered some M3 brass inserts for frame mounting (I’ll be heat-pressing them into PLA)  
+* Finalized placement of all components on chassis mockup—everything fits!  
+* Tested ESC firmware options—might flash a custom throttle curve later
+
+---
+
+## **Day 5** (07/05/2025)
+
+* Printed v2 of the battery tray—this time it fits and doesn't flex  
+* Finished wiring plan:  
+  * ESC -> motor = 14AWG silicone  
+  * Battery leads = 12AWG  
+  * All connectors XT60  
+* Started working on a GitHub readme and folder for STL files, wiring diagrams, and future test logs  
+* Looked into telemetry—might add an RPM and ESC temp sensor next week  
+* Also considering making a detachable FPV mount on top 😏
+
+---
+
+## **Day 6** (07/06/2025)
+
+* Modeled FPV camera mount and integrated it into the canopy  
+  * Kept it low-profile to reduce drag  
+* Finalized the gear mesh settings for the 3900KV motor  
+* Calibrated ESC for throttle range  
+* Hooked everything up for a bench test and everything spun up fine (no magic smoke thank god)  
+* Still waiting on the wheels + tires to arrive—test drive probably on Day 8  
+* Cleaned up wiring and zip-tied all loose wires  
+* Solder joints are 🔥 — might as well call me the iron whisperer
+
+---
+
+## **Day 7** (07/07/2025)
+
+* Bolted everything to the chassis for the final dry fit  
+* Added foam tape to secure the batteries better and absorb vibrations  
+* Reprinted one wire clamp because I broke it tightening it down  
+* Documented full BOM with links and prices  
+* Final AliExpress cart (with shipping + taxes): **$327.77**  
+* Added part images, wiring diagrams, and CAD shots to GitHub  
+* Wrote this whole log because I finally had time lol  
+
+---
+
+## **My Story**
+
+* Back in sophomore year, I told myself I wanted to build something insane. Not just school projects. Something with speed. After playing around with drones and rockets (and destroying both, not gonna lie), I wanted something that could survive a bit more punishment. So I started thinking... what about an RC car that could hit 100mph? That’s wild.  
+* The issue was cost—like always. The drone project from earlier almost made me cry with how expensive it was ($500+ easy). But with this car, I found some solid deals on AliExpress, reused stuff I already had (like LiPos), and built the rest from scratch.  
+* I’ve learned more doing this in a week than I did in a month of school. CAD modeling, electronics, gear ratios, 3D printing—it’s all starting to click.  
+* Whether it hits 100mph or not, I’m proud of how far it’s come. It’s not just a car; it’s a part of my brain, printed, soldered, and zip-tied together.
