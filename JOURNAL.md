@@ -1,11 +1,11 @@
 ---
-title: "SkyTrack"
-author: "Kiya Kesheh"
-description: "100 mph RC car!"
-created_at: "2025-07-01"
+title: "Panthrax"
+author: "Kiyan"
+description: "RC car!"
+created_at: "2025-07-03"
 ---
 
-## **Day 1** (07/01/2025)
+## **Day 1** (06/26/2025)
 
 * Did a ton of research on how RC cars are built  
   * Compared 3650 vs. 3665 vs. 4268 motors  
@@ -21,7 +21,7 @@ created_at: "2025-07-01"
 
 ---
 
-## **Day 2** (07/02/2025)
+## **Day 2** (06/27/2025)
 
 * Modeled the full drivetrain in Fusion 360 based on wheel size and chassis layout  
   * Front and rear differential spacing adjusted to the AXSPEED chassis dimensions  
@@ -33,7 +33,7 @@ created_at: "2025-07-01"
 
 ---
 
-## **Day 3** (07/03/2025)
+## **Day 3** (06/28/2025)
 
 * Refined the Fusion 360 model  
   * Added cutouts for ESC cooling and slots to run 12AWG wires  
@@ -45,7 +45,7 @@ created_at: "2025-07-01"
 
 ---
 
-## **Day 4** (07/04/2025)
+## **Day 4** (06/29/2025)
 
 * 3D printed the first version of the front bumper and wire clamps  
   * Print settings:  
@@ -60,7 +60,7 @@ created_at: "2025-07-01"
 
 ---
 
-## **Day 5** (07/05/2025)
+## **Day 5** (06/30/2025)
 
 * Printed v2 of the battery tray—this time it fits and doesn't flex  
 * Finished wiring plan:  
@@ -73,7 +73,7 @@ created_at: "2025-07-01"
 
 ---
 
-## **Day 6** (07/06/2025)
+## **Day 6** (07/01/2025)
 
 * Modeled FPV camera mount and integrated it into the canopy  
   * Kept it low-profile to reduce drag  
@@ -86,7 +86,7 @@ created_at: "2025-07-01"
 
 ---
 
-## **Day 7** (07/07/2025)
+## **Day 7** (07/02/2025)
 
 * Bolted everything to the chassis for the final dry fit  
 * Added foam tape to secure the batteries better and absorb vibrations  
@@ -97,10 +97,3 @@ created_at: "2025-07-01"
 * Wrote this whole log because I finally had time lol  
 
 ---
-
-## **My Story**
-
-* Back in sophomore year, I told myself I wanted to build something insane. Not just school projects. Something with speed. After playing around with drones and rockets (and destroying both, not gonna lie), I wanted something that could survive a bit more punishment. So I started thinking... what about an RC car that could hit 100mph? That’s wild.  
-* The issue was cost—like always. The drone project from earlier almost made me cry with how expensive it was ($500+ easy). But with this car, I found some solid deals on AliExpress, reused stuff I already had (like LiPos), and built the rest from scratch.  
-* I’ve learned more doing this in a week than I did in a month of school. CAD modeling, electronics, gear ratios, 3D printing—it’s all starting to click.  
-* Whether it hits 100mph or not, I’m proud of how far it’s come. It’s not just a car; it’s a part of my brain, printed, soldered, and zip-tied together.
