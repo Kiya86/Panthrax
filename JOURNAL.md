@@ -9,11 +9,11 @@ created_at: "2025-07-03"
 
 * Did research on how RC Cars work!  
   * Compared motors based on KV and found out about RMPS!  
-  * Found out 3650 3900KV motors are good for short bursts and good midrange RPM  
-  * Decided on the Surpass Rocket 3650 3900KV motor with a 60A waterproof ESC (Took so long to find on Aliexpress!!!!)
+  * Found out that 4370KV motors are good for short bursts and good midrange RPM  
+  * Decided to pick the SURPASS HOBBY KK Combo 4370KV + 45A ESC (Took so long to find on Aliexpress!!!!)
 * Picked Sakura D5 chassis, which already has 90% of everything I need, which will reduce costs! 
 * For the receiver, went with the Flysky FS-iA6B since I already have a compatible transmitter   
-* On the battery side of things, I decided on a dual 5200mAh 4S HOOVO would be perfect!  
+* On the battery side of things, I decided to got with the ZEEE 4S 6000mAh 60C LiPo w/ XT60 Plug!
   * Side note: This thing will be FFFFFFFFFAAAAAAAAAAAAASTTTTTTTTT!!!!!!!  
 * Finalized BOM and added everything to my cart to get an idea of the real-world cost  
 
