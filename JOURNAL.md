@@ -1,7 +1,7 @@
 ---
 title: "Panthrax"
 author: "Kiyan"
-description: "RC car!"
+description: "RC Car!"
 created_at: "2025-07-03"
 ---
 
