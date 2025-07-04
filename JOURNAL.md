@@ -55,6 +55,4 @@ created_at: "2025-05-21"
  ## **My Story** 
 
 * Ever since I started my sophomore year of high school, I have wanted to take on a project that was ambitious. After months of brainstorming, I came up with a couple of ideas, such as building a rover, a high-speed drone, or rockets. After debating and consulting my sibling, I decided to watch videos on drone builds, and I was amazed! All of the parts available and the electronics just shocked me. How did they think of this? How was this made? After countless videos, I came up with a rough list of requirements: carbon frame, high-kv motors, all-in-one ESC, 4s lipo, lightweight, and cool paint job. After adding up the costs of all parts, I found it to be very expensive, as all parts totaled $500. This was way too much and still is way too much for my family (low income), so I decided to put the entire project to the side and build rockets instead (Way cheaper). But after getting bored of rockets, I came back to the drone project due to "highway" and decided to update the parts and reduce costs as I could reuse what I had. For example, I have a 6s lipo, so I adapted the ESC to that and got rid of the battery (4s one). The total cost for the new BOM proved to be way less, and has got me excited, as I have a plan for this drone that I will hopefully build.
-* 
-
 
