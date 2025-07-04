@@ -7,29 +7,29 @@ created_at: "2025-07-03"
 
 ## **Day 1** (06/26/2025)
 
-* Did a ton of research on how RC cars are built  
-  * Compared 3650 vs. 3665 vs. 4268 motors  
+* Did research on how RC Cars work!  
+  * Compared motors based on KV and found out about RMPS!  
   * Found out 3650 3900KV motors are good for short bursts and good midrange RPM  
-  * Decided on the Surpass Rocket 3650 3900KV motor with a 60A waterproof ESC  
-* Picked an AXSPEED metal chassis because it has a solid build, and comes with 4 wheels, dampers, servo mount, and all that already  
-  * Less I have to design, the faster I get to the fun part (breaking stuff and rebuilding lol)  
-* For the receiver, went with the Flysky FS-iA6B since I already have a compatible transmitter  
-* Battery-wise, I decided on a dual 5200mAh 4S HOOVO pack to give me the juice I need  
-  * This thing will be a beast—should hit 100mph with gear tuning  
+  * Decided on the Surpass Rocket 3650 3900KV motor with a 60A waterproof ESC (Took so long to find on Aliexpress!!!!)
+* Picked Sakura D5 chassis, which already has 90% of everything I need, which will reduce costs! 
+* For the receiver, went with the Flysky FS-iA6B since I already have a compatible transmitter   
+* On the battery side of things, I decided on a dual 5200mAh 4S HOOVO would be perfect!  
+  * Side note: This thing will be FFFFFFFFFAAAAAAAAAAAAASTTTTTTTTT!!!!!!!  
 * Finalized BOM and added everything to my cart to get an idea of the real-world cost  
-  * Total cost with shipping and taxes: **$327.77** 😮‍💨
 
 ---
 
 ## **Day 2** (06/27/2025)
 
-* Modeled the full drivetrain in Fusion 360 based on wheel size and chassis layout  
-  * Front and rear differential spacing adjusted to the AXSPEED chassis dimensions  
-* Drew out servo and ESC placement with wire routing under the top plate  
-* Designed a modular battery tray that can slide to adjust CG front-to-back  
-* Looked up gearing ratios and experimented with some hypothetical values in a calculator  
-  * Maxed out theoretical speed = 112mph at 85% throttle on 4S 👀  
-* Still figuring out how to keep the motor cool without air ducts
+* Started to model the RC Car body to be aerodynamic
+* Made the rough sketch of where the wheels go and the front and rear bumper
+* Extruded the sketch to 130 mm, which is perfect for a 1/10 RC Car
+
+Rough sketch!
+* ![image](https://github.com/user-attachments/assets/9641a3b4-8e4b-49a0-a6f1-d640e5a91c28)
+
+Finally extruded! 
+* ![image](https://github.com/user-attachments/assets/717bb177-f4e8-47ad-b8b7-11745bee2184)
 
 ---
 
