@@ -35,28 +35,31 @@ Finally extruded!
 
 ## **Day 3** (06/28/2025)
 
-* Refined the Fusion 360 model  
-  * Added cutouts for ESC cooling and slots to run 12AWG wires  
-  * Designed custom 3D-printable motor mount plate to adjust pinion angle  
-* Measured actual dimensions of motor + ESC from datasheet and scaled everything in CAD  
-* Created mounting holes for RX and tiedown slots for zip-ties  
-* Experimented with TPU bumper design to absorb front-end crashes  
-* Started slicing components to 3D print the ones I can (battery tray, bumper, wire clamps)
+* Refined the Fusion 360 model
+* Added the side profile of the car and made sure each wheel had clearance (15mm on each side)
+* The tire cut out ended up being 95mm, which allows it to clear basically every tire I will run
+* I then extruded every part that is basically "Trash"
+* Allowed me to make a rough car shape!
+
+Side profile sketch!
+![image](https://github.com/user-attachments/assets/3b0c834e-a8c1-4c12-baf3-6b8ecdc811f4)
+
+Extruded!
+![image](https://github.com/user-attachments/assets/b0dad51e-58eb-4096-a212-f65813155861)
 
 ---
 
 ## **Day 4** (06/29/2025)
 
-* 3D printed the first version of the front bumper and wire clamps  
-  * Print settings:  
-    * Nozzle: 215 °C (TPU)  
-    * Bed: 60 °C  
-    * Infill: 40%, pattern: cubic  
-    * Speed: 30 mm/s  
-* Noticed a warp in the tray—need to reprint with a raft  
-* Ordered some M3 brass inserts for frame mounting (I’ll be heat-pressing them into PLA)  
-* Finalized placement of all components on chassis mockup—everything fits!  
-* Tested ESC firmware options—might flash a custom throttle curve later
+* Refined the Fusion 360 model
+* Started to work on the top sketch to give the car body more shape
+* Extruded the parts I didn't need and it gave it some really good shape!
+
+Top Sketch
+![image](https://github.com/user-attachments/assets/ed87ca13-ac45-4cc0-b1df-f99967a555bf)
+
+Extruded!
+![image](https://github.com/user-attachments/assets/321b74b8-acde-4f43-bac5-39d389b78344)
 
 ---
 
