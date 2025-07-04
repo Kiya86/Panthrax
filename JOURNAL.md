@@ -26,10 +26,10 @@ created_at: "2025-07-03"
 * Extruded the sketch to 130 mm, which is perfect for a 1/10 RC Car
 
 Rough sketch!
-* ![image](https://github.com/user-attachments/assets/9641a3b4-8e4b-49a0-a6f1-d640e5a91c28)
+ ![image](https://github.com/user-attachments/assets/9641a3b4-8e4b-49a0-a6f1-d640e5a91c28)
 
 Finally extruded! 
-* ![image](https://github.com/user-attachments/assets/717bb177-f4e8-47ad-b8b7-11745bee2184)
+ ![image](https://github.com/user-attachments/assets/717bb177-f4e8-47ad-b8b7-11745bee2184)
 
 ---
 
@@ -65,38 +65,15 @@ Extruded!
 
 ## **Day 5** (06/30/2025)
 
-* Printed v2 of the battery tray—this time it fits and doesn't flex  
-* Finished wiring plan:  
-  * ESC -> motor = 14AWG silicone  
-  * Battery leads = 12AWG  
-  * All connectors XT60  
-* Started working on a GitHub readme and folder for STL files, wiring diagrams, and future test logs  
-* Looked into telemetry—might add an RPM and ESC temp sensor next week  
-* Also considering making a detachable FPV mount on top 😏
+* Refined the Fusion 360 model
+* Started to round the corners with fillet
+* Started to do the side, then moved on to the front
+* I gave the front more shape using fillet
 
----
+Fillet Side
+![image](https://github.com/user-attachments/assets/69558608-83c1-4a7a-af96-31e3ce45e2b7)
 
-## **Day 6** (07/01/2025)
-
-* Modeled FPV camera mount and integrated it into the canopy  
-  * Kept it low-profile to reduce drag  
-* Finalized the gear mesh settings for the 3900KV motor  
-* Calibrated ESC for throttle range  
-* Hooked everything up for a bench test and everything spun up fine (no magic smoke thank god)  
-* Still waiting on the wheels + tires to arrive—test drive probably on Day 8  
-* Cleaned up wiring and zip-tied all loose wires  
-* Solder joints are 🔥 — might as well call me the iron whisperer
-
----
-
-## **Day 7** (07/02/2025)
-
-* Bolted everything to the chassis for the final dry fit  
-* Added foam tape to secure the batteries better and absorb vibrations  
-* Reprinted one wire clamp because I broke it tightening it down  
-* Documented full BOM with links and prices  
-* Final AliExpress cart (with shipping + taxes): **$327.77**  
-* Added part images, wiring diagrams, and CAD shots to GitHub  
-* Wrote this whole log because I finally had time lol  
+Fillet Front
+![image](https://github.com/user-attachments/assets/b9c60a68-9929-4b35-9118-825e5095caa8)
 
 ---
