@@ -13,6 +13,8 @@ RC Car project!
 ---
 
 ![image](https://github.com/user-attachments/assets/8f98e7a6-c71c-4ad7-bb5a-9ce65c7e8ffb)
+![image](https://github.com/user-attachments/assets/7cc29c86-d9ab-4627-8479-82d464dd6346)
+
 
 
 ## Summary (From AliExpress):
