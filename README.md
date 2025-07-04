@@ -1,8 +1,6 @@
 # Panthrax  
 RC Car project!
 
-All of the parts I sourced are on AliExpress to keep the cost of the RC car down. When comparing to other sources, I found out I can save a lot lol.
-
 ## BOM:
 
 | Parts              | Exact Name                                                                                                     | Store                     | Qty | Price    | Shipping | Total   |
