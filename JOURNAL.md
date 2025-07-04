@@ -17,6 +17,8 @@ created_at: "2025-07-03"
   * Side note: This thing will be FFFFFFFFFAAAAAAAAAAAAASTTTTTTTTT!!!!!!!  
 * Finalized BOM and added everything to my cart to get an idea of the real-world cost  
 
+![image](https://github.com/user-attachments/assets/8face90d-b558-4e24-94c6-24224daecea1)
+
 ---
 
 ## **Day 2** (06/27/2025)
@@ -77,3 +79,6 @@ Fillet Front
 ![image](https://github.com/user-attachments/assets/b9c60a68-9929-4b35-9118-825e5095caa8)
 
 ---
+
+![image](https://github.com/user-attachments/assets/b227be7f-4c9f-4a01-a1c4-667dfc153816)
+
